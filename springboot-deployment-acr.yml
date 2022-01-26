@@ -18,6 +18,6 @@ spec:
         - name: registry-secret
       containers:
       - name: springboot
-        image: jan22azuredevopsregistry.azurecr.io/springboot-maven-course-micro-svc:4
+        image: jan22devopsre.azurecr.io/springboot-maven-course-micro-svc:4
         ports:
         - containerPort: 8080
